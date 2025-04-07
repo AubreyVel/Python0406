@@ -17,7 +17,7 @@ class ShoppingCart:
         self.ProductList=[]
     
     def AddProduct(self,product):
-        self.ProductList.append(ProductID)
+        self.ProductList.append(product)
         
     def RemoveProduct(self,productID):
         for x in self.ProductList:
